@@ -2,7 +2,7 @@ from flasgger import swag_from
 from flask import Blueprint
 
 hello = Blueprint("hello", __name__, url_prefix="/api/v1/hello1")
-
+# Run swagger with http://127.0.0.1:5000/apidocs
 @hello.get('/')
 @swag_from('./hello.yaml')
 def index():
