@@ -3,8 +3,8 @@ GET hello there
 tags:
   - Hello
 
-parameters:
-  - in: header
+#parameters:
+#  - in: header
 #    name: Authorization
 #    required: false
 
