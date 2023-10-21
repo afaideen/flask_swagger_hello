@@ -1,0 +1,16 @@
+GET hello there
+---
+tags:
+  - Hello
+
+parameters:
+  - in: header
+#    name: Authorization
+#    required: false
+
+responses:
+  200:
+    description: Hello there!
+
+  401:
+    description: Fails to get data
